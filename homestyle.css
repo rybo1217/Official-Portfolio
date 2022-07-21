@@ -1,3 +1,4 @@
+
 body 
 { 
     margin: 0;  
@@ -6,46 +7,42 @@ body
     max-width: 100%;
     font-family: monospace;
     background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    
     
   /*  background: url(Background5.jpeg);/* adds to the background
     background-repeat: repeat;
     background-size: cover; */
   
   }
-  .navbar {
+  ul.topnav {
     list-style-type: none;
     margin: 0;
-    padding:0;
-    top:0;
-    position: fixed;
-    width: 100%;
+    padding: 0;
     overflow: hidden;
     background-color: rgb(243, 242, 242);
   }
   
-  li {
-    float: left;
-    
-  }
- 
+  ul.topnav li {float: left;}
   
-  li a{
+  ul.topnav li a {
     display: block;
-    color: black;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 50px 150px; /* how tall ... how far from eachother*/
+    padding: 50px 200px;
     text-decoration: none;
     font-size: 30px;
-    font-weight: bolder;
-    font-family: monospace;
   }
-  li:last-child/*name*/
-  {
-    list-style-type: none;
-    color: black;
-    font-family: cursive;
-    font-size: 80px;
-
+  
+  ul.topnav li a:hover:not(.active) {background-color: rgb(255, 255, 255);}
+  
+  ul.topnav li a.active {background-color: #04AA6D;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
   }
   
   /* Change the link color to #111 (black) on hover */
@@ -61,14 +58,11 @@ body
   color: black;
   margin-top:175px;
   background-color: rgb(243, 242, 242);
-border-radius: 25px;
+  border-radius: 25px;
   margin-left: 200px;
   margin-right: 200px;
 }
-.bio :hover
-{
-  background-color: rgb(243, 242, 242);
-}
+
 .contact :hover
 {
   background-color: rgb(243, 242, 242);
