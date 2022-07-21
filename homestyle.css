@@ -1,0 +1,137 @@
+body 
+{ 
+    margin: 0;  
+    padding: 0;  
+    height: auto;
+    max-width: 100%;
+    font-family: monospace;
+    background-color: rgb(255, 255, 255);
+    
+  /*  background: url(Background5.jpeg);/* adds to the background
+    background-repeat: repeat;
+    background-size: cover; */
+  
+  }
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    top:0;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(243, 242, 242);
+  }
+  
+  li {
+    float: left;
+    
+  }
+ 
+  
+  li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 50px 150px; /* how tall ... how far from eachother*/
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: monospace;
+  }
+  li:last-child/*name*/
+  {
+    list-style-type: none;
+    color: black;
+    font-family: cursive;
+    font-size: 80px;
+
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+
+.bio
+{
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  margin-top:175px;
+  background-color: rgb(243, 242, 242);
+border-radius: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.bio :hover
+{
+  background-color: rgb(243, 242, 242);
+}
+.contact :hover
+{
+  background-color: rgb(243, 242, 242);
+}
+.about
+{
+  display: flex;
+  flex-direction: column;
+  
+  font-size: 40px;
+  width: 100%;
+  color: black;
+}
+#name,#biography
+{
+  padding-left: 25px;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
+#biowords
+{
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  padding-left: 25px;
+ 
+}
+.skills
+{
+  display: flex;
+  justify-content: space-evenly; 
+  background-color: rgb(243, 242, 242);
+  margin-top:75px;
+  
+  margin-left: 520px;
+  margin-right: 200px;
+  color: rgb(0, 0, 0);
+  width: 50%;
+  
+}
+
+#table1,#table2
+{
+  font-size: 23px;
+  text-align: center;
+  width: 200px;
+
+  
+}
+
+.contact
+{
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 40px;
+  width: 60%;
+  color: black;
+  margin-left: 420px;
+}
+#info
+{
+font-size: 25px;
+}
