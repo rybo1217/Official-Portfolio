@@ -21,6 +21,7 @@ body
     padding: 0;
     overflow: hidden;
     background-color: rgb(243, 242, 242);
+    width: 100%;
   }
   
   ul.topnav li {float: left;}
@@ -32,6 +33,7 @@ body
     padding: 50px 200px;
     text-decoration: none;
     font-size: 30px;
+    width: 80%;
   }
   
   ul.topnav li a:hover:not(.active) {background-color: rgb(255, 255, 255);}
@@ -59,8 +61,8 @@ body
   margin-top:175px;
   background-color: rgb(243, 242, 242);
   border-radius: 25px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .contact :hover
@@ -97,8 +99,8 @@ body
   background-color: rgb(243, 242, 242);
   margin-top:75px;
   
-  margin-left: 520px;
-  margin-right: 200px;
+  margin-left: 25%;
+  margin-right: 25%;
   color: rgb(0, 0, 0);
   width: 50%;
   
@@ -123,7 +125,8 @@ body
   font-size: 40px;
   width: 60%;
   color: black;
-  margin-left: 420px;
+  margin-left: 20%;
+  margin-right: 30%;
 }
 #info
 {
