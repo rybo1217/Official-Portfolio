@@ -6,9 +6,9 @@ body
     height: auto;
     max-width: 100%;
     font-family: monospace;
-    background: url(60286.jpg);/* adds to the background*/
+    background: url(bg.jpg);/* adds to the background*/
     background-repeat: repeat;
-    background-size: cover;
+    background-size:auto;
     height:100%
     
     
@@ -23,14 +23,15 @@ body
   }
   ul.topnav {
     list-style-type: none;
+    border-bottom: 7px solid;
+    border-color: #FFC047;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(243, 242, 242);
+    background-color: #141414;
     width: 100%;
-    
-    border-bottom: 3px solid;
-    border-color: #FFC047;
+    color: #FFC047
+   
   
   }
   
@@ -38,17 +39,17 @@ body
   
   ul.topnav li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: #FFC047;
     text-align: center;
     padding: 50px 200px;
+  
     text-decoration: none;
     font-size: 30px;
-    width: 90%;
-    border-bottom: 7px solid;
-    border-color: #FFC047;
+    width: 50%;
+   
   }
   
-  ul.topnav li a:hover:not(.active) {color: #FFC047;}
+  ul.topnav li a:hover:not(.active) {color: #ffffff;}
   
   ul.topnav li a.active {background-color: #04AA6D;}
   
@@ -59,20 +60,17 @@ body
     ul.topnav li {float: none;}
   }
   
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-   
-   
-  }
+
+ 
 
 
 .bio
 {
   display: flex;
   justify-content: space-between;
-  color: black;
+  color: #FFC047;
   margin-top:175px;
-  background-color: rgb(243, 242, 242);
+  background-color: #141414;
   border: 7px solid;
   border-color: #FFC047;
   border-radius: 25px;
@@ -92,18 +90,18 @@ body
   
   font-size: 40px;
   width: 100%;
-  color: black;
+  color: #FFC047;
 }
 #name,#biography
 {
   padding-left: 25px;
-  color: rgb(0, 0, 0);
+  color: #FFC047;
   text-decoration: underline;
   padding-bottom: 15px;
 }
 #biowords
 {
-  color: rgb(0, 0, 0);
+  color: #FFC047;
   font-size: 23px;
   padding-left: 25px;
  
@@ -112,14 +110,14 @@ body
 {
   display: flex;
   justify-content: space-evenly; 
-  background-color: rgb(243, 242, 242);
+  background-color: #141414;
   margin-top:75px;
   border: 7px solid;
   border-color: #FFC047;
   border-radius: 25px;
   margin-left: 25%;
   margin-right: 25%;
-  color: rgb(0, 0, 0);
+  color: #FFC047;
   width: 50%;
   
 }
@@ -145,7 +143,7 @@ body
   color: black;
   margin-left: 20%;
   margin-right: 30%;
-  background-color: rgb(243, 242, 242);
+  background-color: #141414;
   border: 7px solid;
   border-color: #FFC047;
   border-radius: 25px;
@@ -165,4 +163,9 @@ img
   border-top-left-radius: 18px;
   border-bottom-left-radius: 22px;
 
+}
+
+a
+{
+ color: #FFC047;
 }
