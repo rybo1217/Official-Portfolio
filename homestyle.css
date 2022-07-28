@@ -21,6 +21,7 @@ body
     background-size: cover; */
   
   }
+  
   ul.topnav {
     list-style-type: none;
     border-bottom: 7px solid;
@@ -35,17 +36,17 @@ body
   
   }
   
-  ul.topnav li {float: left;}
+  ul.topnav li {float: left}
   
   ul.topnav li a {
     display: block;
     color: #FFC047;
     text-align: center;
-    padding: 50px 200px;
+    padding: 50px 170px;
   
     text-decoration: none;
     font-size: 30px;
-    width: 50%;
+    width: 33%;
    
   }
   
@@ -69,7 +70,7 @@ body
   display: flex;
   justify-content: space-between;
   color: #FFC047;
-  margin-top:175px;
+  margin-top:70px;
   background-color: #141414;
   border: 7px solid;
   border-color: #FFC047;
@@ -147,6 +148,7 @@ body
   border: 7px solid;
   border-color: #FFC047;
   border-radius: 25px;
+  padding-bottom: 20px;
 }
 #info
 {
@@ -167,5 +169,15 @@ img
 
 a
 {
- color: #FFC047;
+ color: #f50d0d;
+ text-decoration:double
 }
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    
+ }
+
