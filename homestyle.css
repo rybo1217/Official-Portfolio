@@ -226,9 +226,4 @@ color:  #FFC047;
   color: #FFC047;
 }
 
-#grid-gap :hover
-{
-  background-color: #b3873661;
-}
-
-
+h2:hover { color: rgb(255, 255, 255) }
